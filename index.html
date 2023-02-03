@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnie Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>   
+
+    <header class="headr">
+
+        <div class="logo">
+            <a href="#" class="log">John</a>
+            <a href="#" class="fas fa-bars" id="menuBttn"></a>
+        </div>
+
+        <nav class="navbar">
+            <a class="links" href="#portfolio">portfolio</a>
+            <a class="links" href="#about">about</a>
+            <a class="links" href="#contact">contact</a>
+        </nav>
+    
+    </header>
+
+    <section class="headline">
+
+            <div class="box">
+                <h1>I’m John <br> Glad to see you!</h1>
+                <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <a class="connct" href="#">LET'S CONNECT</a>
+                <ul class="list">
+                    <li><a href="#"></a><img src="unt/twitter.svg" alt="twitter link"></li>
+                    <li><a href="#"></a><img src="unt/Linkedin icon.svg" alt="linkedin link"></li>
+                    <li><a href="#"></a><img src="unt/medium.svg" alt="medium link"></li>
+                    <li><a href="#"></a><img src="unt/github.svg" alt="github link"></li>
+                    <li><a href="#"></a><img src="unt/angellist.svg" alt="angellist link"></li>
+                </ul>  
+            </div>
+ 
+        </div>
+    </section>
+ 
+    <section class="work" id="portfolio">
+             
+    </section>
+
+    <div class="modal-container" id="modal-contain">
+        
+    </div>
+
+    <section class="about" id="about">
+        <div class="about-box">
+            <div class="about_myself">
+                <p class="title-me">about <br> myself</p>
+                <p class="about-me">
+                    Hello I’m a software developer! 
+                    I can help you build a product ,
+                    feature or website Look through
+                    some of my work and experience!
+                    If you like what you see and have a project you need coded, 
+                    don’t hestiate to contact me.
+                </p>
+                <div class="conn">
+                    <a href="#" class="connect">LET'S CONNECT</a>
+                    <ul>
+                        <li><a href="#"></a><img src="unt/github.svg" alt="github link"></li>
+                        <li><a href="#"></a><img src="unt/Linkedin icon.svg" alt="linkedin link"></li>
+                        <li><a href="#"></a><img src="unt/angellist.svg" alt="angellist link"></li>
+                        <li><a href="#"></a><img src="unt/twitter.svg" alt="twitter link"></li>
+                        <li><a href="#"></a><img src="unt/medium.svg" alt="medium link"></li>
+                    </ul>  
+                </div>
+
+
+                <input type="submit" value="Get my resume">
+            </div>
+
+            <div class="skills_list">
+
+                <div class="box">
+                    
+                    <div class="lang">  
+                        <h3>languages</h3>
+                        <img src="unt/Union.svg" alt="drop down image">
+                    </div>
+                    <div class="box_drop">
+                        <ul>
+                            <li>
+                                <img src="unt/Ellipse 1.png" alt="javascript logo">
+                                <p>Javascript</p>
+                            </li>
+                            <li>
+                                <img src="unt/Ellipse 1 (1).png" alt="HTML logo">
+                                <p>HTML</p>
+                            </li>
+                            <li>
+                                <img src="unt/Ellipse 1 (2).png" alt="CSS logo">
+                                <p>css</p>
+                            </li>
+                        </ul>
+                    </div>   
+                </div>
+    
+                <div class="box-side">
+                    <h3>framework</h3>
+                    <img src="unt/Unionarrdwn.svg" alt="drop down icon">
+                </div>
+    
+                <div class="box-side">
+                    <h3>skills</h3>
+                    <img src="unt/Unionarrdwn.svg" alt="drop down icon">          
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            
+            <div class="title">
+                <p>Contact me</p>
+            </div>
+
+            <div class="contentt">
+                <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            </div>
+
+            <form id="form" action="https://formspree.io/f/moqzvwyo" method="post">
+                <div class="name">
+                    <label for="name"></label>
+                    <input id="name" name="name" type="text" maxlength="30" placeholder="Enter your name" required="">
+                </div>
+                <div class="mail-error">
+                    <label for="email"></label>
+                    <input class="emailInput" type="email" id="email" name="email" placeholder="Enter your email" required="">
+                </div>
+                <div class="text">
+                    <label for="text-box"></label>
+                    <textarea name="text-box" id="text-box" cols="49" rows="7" placeholder="Enter your text" maxlength="500" required></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Get in touch" class="button">
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <div class="overlay"></div>
+
+<script src="script/index.js"></script>
+<script src="script/form.js"></script>
+<script src="script/storage.js"></script>
+</body>
